@@ -1,5 +1,5 @@
 {
-    "name": "emiTS",
+    "name": "emits",
     "version": "0.1.0",
     "description": "A typesafe event emitter POC",
     "type": "module",
@@ -8,7 +8,7 @@
     "types": "./dist/index.d.ts",
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/abdullahcanakci/emiTS.git"
+      "url": "git+https://github.com/abdullahcanakci/emits.git"
     },
     "publishConfig": {
       "registry": "https://npm.pkg.github.com"
