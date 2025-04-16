@@ -6,6 +6,10 @@
     "main": "./dist/emits.umd.cjs",
     "module": "./dist/emits.js",
     "types": "./dist/index.d.ts",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/abdullahcanakci/emiTS.git"
+    },
     "exports": {
       ".": {
         "import": "./dist/emits.js",
