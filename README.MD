@@ -1,52 +1,38 @@
 # My TypeScript Library
 
-A TypeScript library designed to work in both Node.js and browser environments.
+emiTS is a typesafe event emitter library aiming to work on both node and browser environments
 
 ## Installation
 
-```bash
-npm install my-ts-lib
-# or
-yarn add my-ts-lib
-```
+TBA...
 
 ## Usage
 
 ### In Node.js
 
 ```typescript
-import { someFunction } from 'my-ts-lib';
+import Emitter from 'emits'
 
-someFunction();
+interface Events {
+  'event': { message: string };
+}
+
+const emitter = new Emitter<Events>()
+
+emitter.on('event', (payload) => {
+  console.log(payload)
+})
+
+await emitter.emit('event', { message: 'Hello World!' })
 ```
-
-### In Browser
-
-```html
-<script type="module">
-  import { someFunction } from 'my-ts-lib';
-  
-  someFunction();
-</script>
-```
-
-Or using UMD build:
-
-```html
-<script src="./node_modules/my-ts-lib/dist/my-ts-lib.umd.cjs"></script>
-<script>
-  MyTsLib.someFunction();
-</script>
-```
-
 ## Development
 
 ### Setup
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/my-ts-lib.git
-cd my-ts-lib
+git clone https://github.com/abdullahcanakci/emiTS.git
+cd emiTS
 
 # Install dependencies
 npm install
