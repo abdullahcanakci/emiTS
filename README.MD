@@ -31,7 +31,7 @@ await emitter.emit('event', { message: 'Hello World!' })
 
 ```bash
 # Clone the repository
-git clone https://github.com/abdullahcanakci/emiTS.git
+git clone https://github.com/abdullahcanakci/emits.git
 cd emiTS
 
 # Install dependencies
