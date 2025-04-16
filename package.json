@@ -1,5 +1,5 @@
 {
-    "name": "emits",
+    "name": "@abdullahcanakci/emits",
     "version": "0.1.0",
     "description": "A typesafe event emitter POC",
     "type": "module",
