@@ -1,4 +1,4 @@
-# My TypeScript Library
+# emiTS
 
 emiTS is a typesafe event emitter library aiming to work on both node and browser environments
 
